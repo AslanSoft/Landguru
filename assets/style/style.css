@@ -1,0 +1,191 @@
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/dm-sans-v15-latin-100.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/dm-sans-v15-latin-200.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/dm-sans-v15-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-sans-v15-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/dm-sans-v15-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dm-sans-v15-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/dm-sans-v15-latin-800.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/dm-sans-v15-latin-900.woff2') format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans';
+
+    position: relative;
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+.haeder__list{
+    display: flex;
+    gap: 30px;
+}
+.header__logobox{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+
+.header__buttonbox>button{
+    padding: 13px 31px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.header__item{
+    position: relative;
+}
+.header__item::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: width 1s ease;
+}
+.header__item:hover::after{
+    content: "";
+    width: 100%;
+}
+
+
+
+/* hero page */
+.hero{
+    width: 100%;
+    background: #1E3C72;
+    height: 100vh;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.bg_screens{
+    user-select: contain;
+}
+.position1{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.position2{
+    position:absolute;
+    bottom: -95px;
+    left: 0px;
+}
+
+.position3{
+    position:absolute;
+    top: 0px;
+    left: 385px;
+}
+.position4{
+    position:absolute;
+    bottom: 0px;
+    left: 730px;
+}
+.pattern{
+    position: absolute;
+    top: 20%;
+    left: 1100px;
+}
+.position5{
+    position:absolute;
+    top: -160px;
+    right: -140px;
+    transform: rotate(360deg);
+}
+.position6{
+    position: absolute;
+    top: 200px;
+    right: -120px;
+    transform: rotate(180deg);
+}
