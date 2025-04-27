@@ -479,3 +479,49 @@ a,li{
     letter-spacing: 0px;
     color: #343D48;
 }
+
+.icons__content{
+    width: 1294px;
+    height: 544px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.core__textbox{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #244886;
+}
+
+.love__textbox{
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+
+.design__textbox{
+    margin-top: 20px;
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #02073E;
+}
+
+.icons__buttonbox{
+    margin-top: 30px;
+    padding: 15px 60px;
+    border-radius: 50px;
+    background: #1F3E76;
+    color: #fff;
+}
+
