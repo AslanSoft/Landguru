@@ -91,6 +91,7 @@ a,li{
     top: 0;
     left: 0;
     z-index: 99;
+    background: #0f213760;
 }
 .header__container{
     display: flex;
@@ -627,4 +628,143 @@ a,li{
     font-size: 12px;
     line-height: 22px;
     color: #bababa;
+}
+
+.client__textbox{
+    margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.content__top{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.client__pbox{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #244886;
+    letter-spacing: 2.1px;
+}
+
+.client__h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    color: #0F2137;
+    letter-spacing: -1.5px;
+}
+
+.client__content{
+    margin-top: 72px;
+    width: 380px;
+    height: 400px;
+    box-shadow: 0px 6px 47  px #f0f0f0;
+    padding: 10px 20px;
+    gap: 38px;
+}
+
+.modern__bbox{
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    color: #343D48;
+}
+
+.modern__pbox{
+    margin-top: 20px;
+    max-width: 370px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #343D48;
+}
+
+.content__bottom{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.client__content__right{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.denny__bbox{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #0F2137;
+}
+
+.denny_mail{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.38px;
+    color: #25A0FF;
+}
+
+.client__content__flex{
+    display: flex;
+    gap: 38px;
+}
+
+
+.secure__container{
+    margin-top: 140px;
+    background: url("../img/secure\ bg.png");
+    background-position: 15px 0px;
+}
+.secure__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secure__bbox{
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #244886;
+}
+
+.secure__h3{
+    margin-top: 10px;
+    max-width: 480px;
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+
+.secure__pbox{
+    margin-top: 10px;
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #02073E;
+}
+
+.secure__buttonbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #1F3E76;
+    color: #fff;
 }
