@@ -841,14 +841,11 @@ a,li{
     padding: 30px 60px 0px;
     border-radius: 10px;
     background-color: #2F5392;
-    opacity: 1;
     z-index: 2;
 }
 
 .harder__title{
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
@@ -925,4 +922,5 @@ a,li{
 .harder__content__twosides{
     display: flex;
     justify-content: space-evenly;
+    gap: 100px;
 }
