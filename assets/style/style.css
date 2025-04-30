@@ -768,3 +768,35 @@ a,li{
     background: #1F3E76;
     color: #fff;
 }
+
+.harder__container{
+    width: 100%;
+    background: #1E3C72;
+    height: 100vh;
+    padding-top: 100px;
+    position: relative;
+}
+
+.harder__pat{
+    position: absolute;
+    top: -0px;
+    left: 286px;
+}
+
+.harder__pat2{
+    position: absolute;
+    top: 310px;
+    left: -64px;
+}
+
+.harder__pat3{
+    position: absolute;
+    top: 168px;
+    left: 1310px;
+}
+
+.harder__pat4{
+    position: absolute;
+    top: 570px;
+    left: 912px;
+}
