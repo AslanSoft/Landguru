@@ -772,10 +772,11 @@ a,li{
 .harder__container{
     width: 100%;
     background: #1E3C72;
-    height: 100vh;
+    height: 1000px;
     padding-top: 100px;
     position: relative;
 }
+
 
 .harder__pat{
     position: absolute;
@@ -799,4 +800,129 @@ a,li{
     position: absolute;
     top: 570px;
     left: 912px;
+}
+
+.harder__container__textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.harder__pbox{
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.harder__h3{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+}
+
+.harder__plan__conten{
+    display: flex;
+}
+
+.harder__planbox{
+    position: absolute;
+    margin-top: 60px;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #2F5392;
+    padding: 30px 60px 0px;
+    border-radius: 10px;
+    background-color: #2F5392;
+    opacity: 1;
+    z-index: 2;
+}
+
+.harder__title{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.harder__leftside{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.harder__leftside2{
+    display: flex;
+    gap: 5px;
+}
+
+.harder__leftside3{
+    display: flex;
+    gap: 5px;
+}
+
+.harder__leftside4{
+    display: flex;
+    gap: 5px;
+}
+
+.harder__leftside5{
+    display: flex;
+    gap: 5px;
+}
+
+.harder__plan__pbox{
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.harder__title__bbox{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.55px;
+    color: #FFFFFF;
+}
+
+.harder__title__pbox{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.harder__content__buttonbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.harder__buttonbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #2F5392;
+}
+
+.harder__buttonbox__a{
+    background: #ffffff;
+    color: #2F5392;
+}
+
+.harder__content__twosides{
+    display: flex;
+    justify-content: space-evenly;
 }
