@@ -924,3 +924,74 @@ a,li{
     justify-content: space-evenly;
     gap: 100px;
 }
+
+.questions__content{
+    width: 760px;
+    height: 587px;
+    margin-top: 95px;
+}
+
+.questions__textbox{
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.questions__price__content{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.questions__plus{
+    width: 752px;
+    height: 2px;
+    border: 0.5px solid #E5ECF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.question__textbox__p{
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    color: #254887;
+}
+
+.question__textbox__b{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+
+.questions__price__content__p{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+.questions__rightside__textbox{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+.questions__rightside__textbox__pbox{
+    max-width: 380px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.questions__plus__img{
+    padding: 0px 0px 80px;
+}
