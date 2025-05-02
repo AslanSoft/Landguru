@@ -825,12 +825,13 @@ a,li{
     color: #FFFFFF;
 }
 
-.harder__plan__conten{
+.harder__plan__content{
     display: flex;
+    justify-content: space-evenly;
+
 }
 
 .harder__planbox{
-    position: absolute;
     margin-top: 60px;
     width: 450px;
     height: 550px;
@@ -996,54 +997,19 @@ a,li{
     padding: 0px 0px 80px;
 }
 
-.policy__textbox{
-    margin-top: 50px;
+.questions__pluss{
+    width: 752px;
+    height: 2px;
+    border: 0.5px solid #E5ECF4;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.policy__linkbox{
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.policy__linkbox1{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.policy__linkbox2{
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-top: 140px;
 }
 
-.policy__linkbox3{
+.policy__textbox{
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.policy__linkbox4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.policy__textbox__b{
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: -0.5px;
-    color: #0F2137;
-}
-
-.policy__linkbox__b{
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #0F2137;
 }
